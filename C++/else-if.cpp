@@ -52,5 +52,9 @@ int main () {
         cout << "Invalid Input! Please enter a single character." << endl;
     }
 
+    /* Ternary Operator / Statement */
+
+    cout << ( marks >= 45 ? "Your Passed!" : "Your Failed!" ) << endl;  /*      syntax = condition ? stt1 : stt2; */
+    
     return 0;
 }
