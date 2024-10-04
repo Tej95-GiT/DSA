@@ -28,6 +28,17 @@ int main () {
    } 
 
    cout << endl;
+
+   // Sum of numbers till s
+
+   int s = 10;
+   int sum = 0;
+   int i = 1;
+   while ( i <= s) {
+    sum += i;
+    i++;
+   }
+   cout << "Sum of numbers till " << s << " is: " << sum << endl;
  
    return 0;
 }
